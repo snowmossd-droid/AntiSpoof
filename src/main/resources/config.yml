@@ -1,0 +1,94 @@
+kick-message: "&c&lAntiSpoof &r&7| &cClient bi cam: &e{client}\n&7Brand: &f{brand}\n&7Ly do: &f{reason}"
+alert-message: "&8[&cAS&8] &e{player} &7-> &c{client} &7| Brand: &f{brand} | Ly do: &f{reason}"
+check-delay-ticks: 40
+log-enabled: true
+
+vanilla-spoof-check: true
+geyser-spoof-check: true
+bedrock-prefix: "."
+
+forge-consistency-check: true
+fabric-consistency-check: true
+
+vanilla-brand-patterns:
+  - "^$"
+  - "^vanilla$"
+  - "^minecraft$"
+
+safe-channels:
+  - "^minecraft:.*"
+  - "^bukkit:.*"
+  - "^paper:.*"
+  - "^bungeecord:.*"
+  - "^velocity:.*"
+
+forge-brand-patterns:
+  - "(?i).*forge.*"
+
+forge-required-channels:
+  - "(?i).*(fml|forge).*"
+
+fabric-brand-patterns:
+  - "(?i).*fabric.*"
+
+fabric-required-channels:
+  - "(?i).*fabric.*"
+
+blacklisted-brands:
+  - "(?i)wurst"
+  - "(?i)meteor"
+  - "(?i)meteor.client"
+  - "(?i)liquidbounce"
+  - "(?i)liquid.bounce"
+  - "(?i)impact"
+  - "(?i)aristois"
+  - "(?i)future"
+  - "(?i)ares"
+  - "(?i)inertia"
+  - "(?i)sigma"
+  - "(?i)wolfram"
+  - "(?i)flux"
+  - "(?i)vape"
+  - "(?i)rusherhack"
+  - "(?i)rusher"
+  - "(?i)kamiblue"
+  - "(?i)kami"
+  - "(?i)tenacity"
+  - "(?i)novoline"
+  - "(?i)raven"
+  - "(?i)drip"
+  - "(?i)huzuni"
+  - "(?i)ghost"
+  - "(?i)atomic"
+  - "(?i)pyro"
+  - "(?i)entropy"
+  - "(?i)caveman"
+  - "(?i)skilled"
+  - "(?i)xray"
+  - "(?i)pandaland"
+  - "(?i)dusk"
+  - "(?i)sabe"
+  - "(?i)raven.b"
+  - "(?i)bleackhack"
+
+blacklisted-channels:
+  - "(?i)wurst.*"
+  - "(?i)meteor.*"
+  - "(?i)liquidbounce.*"
+  - "(?i)impact.*"
+  - "(?i)aristois.*"
+  - "(?i)future.*"
+  - "(?i)ares.*"
+  - "(?i)sigma.*"
+  - "(?i)wolfram.*"
+  - "(?i)flux.*"
+  - "(?i)vape.*"
+  - "(?i)rusherhack.*"
+  - "(?i)kami.*"
+  - "(?i)tenacity.*"
+  - "(?i)baritone:executor"
+  - "(?i)baritone:settings"
+  - "(?i)baritone:path"
+  - "(?i)xray.*"
+  - "(?i)bleackhack.*"
+  - "(?i)dusk.*"

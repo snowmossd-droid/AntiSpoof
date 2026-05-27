@@ -1,0 +1,21 @@
+name: AntiSpoof
+version: '1.0.0'
+main: me.vennlmao.antispoof.AntiSpoof
+api-version: '1.21'
+folia-supported: true
+authors: [vennlmao]
+depend: [packetevents]
+
+commands:
+  antispoof:
+    aliases: [as, aspoof]
+    usage: /antispoof <reload|check <player>|info <player>>
+    permission: antispoof.admin
+
+permissions:
+  antispoof.admin:
+    default: op
+  antispoof.bypass:
+    default: false
+  antispoof.notify:
+    default: op
